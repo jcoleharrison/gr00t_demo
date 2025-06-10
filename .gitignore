@@ -78,8 +78,8 @@ site/
 *_dev
 dev/
 # config.json
-eval_output/
-eval-result/
+# eval_output/
+# eval-result/
 hostfile
 core.*
 *.out
@@ -102,7 +102,7 @@ dist
 *.log.*
 
 # Data
-!**/alpaca-data-conversation.json
+# !**/alpaca-data-conversation.json
 
 # Editor
 .idea
@@ -110,7 +110,7 @@ dist
 
 # Other
 .DS_Store
-wandb
+# wandb
 
 # Playground
 playground/
